@@ -4,7 +4,7 @@ a = streamlit.header("Phim hay o dayyy!")
 col1,col2 = streamlit.columns(2) 
 # (2) la so luong cot
 
-b = streamlit.sidebar.selectbox("Ten phim", ["Harry Potter", "Catch me if you can"])
+b = streamlit.sidebar.selectbox("Ten phim", ["Chon" ,"Harry Potter", "Catch me if you can"])
 
 with col1:
     a = streamlit.write("Harry Potter")
